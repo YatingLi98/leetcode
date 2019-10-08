@@ -12,7 +12,7 @@ class TreeNode:
 class Solution:
 
     def zigzagLevelOrder(self, root):
-        
+
         if root is None:
             return
         if root.left is None and root.right is None:

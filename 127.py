@@ -64,7 +64,7 @@ class Solution:
             for i in range(len(word)):
                 self.graph[word[:i] + "*" + word[i + 1:]].append(word)
 
-1
+
 beginWord = "hit"
 endWord = "cog"
 wordList = ["hot", "dot", "dog", "lot", "log", "cog"]
